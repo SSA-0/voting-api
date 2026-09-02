@@ -20,9 +20,9 @@ votante emita un solo voto, y ver los resultados.
    powershell
    $env:MONGODB_URI="mongodb+srv://usuario:password@cluster.mongodb.net/voting_db"
    
-   Si usas el botón ▶ de VS Code en vez de la terminal, pon esa misma variable dentro
+   Si usas el botón de VS Code en vez de la terminal, pon esa misma variable dentro
    de `.vscode/launch.json` (ahí no hereda lo de la terminal).
-3. **Corre la app**: botón ▶ sobre `VotingApiApplication.java`, o `mvn spring-boot:run`
+3. **Corre la app**: botón sobre `VotingApiApplication.java`, o `mvn spring-boot:run`
    en la terminal. Usa solo una forma a la vez para no chocar por el puerto 8080.
 4. **Pruébala**: abre `http://localhost:8080/swagger-ui.html` en el navegador — ahí puedes
    probar todos los endpoints sin usar curl ni Postman.
